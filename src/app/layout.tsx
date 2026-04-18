@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   title: "Mostafa | Frontend Developer",
   description: "I build modern, interactive web applications",
   alternates: {
-    canonical: 'https://mostafa-portfolio.vercel.app',
+    canonical: 'https://portfolio-gaqn.vercel.app',
   },
   openGraph: {
     type: 'website',
-    url: 'https://mostafa-portfolio.vercel.app',
+    url: 'https://portfolio-gaqn.vercel.app',
     title: 'Mostafa | Frontend Developer',
     description: 'I craft fast, interactive web apps with a focus on clean UI & performance.',
     siteName: 'Mostafa Portfolio',
