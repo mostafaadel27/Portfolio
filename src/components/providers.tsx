@@ -1,0 +1,14 @@
+"use client";
+
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { ReactLenis } from "lenis/react";
+
+export function Providers({ children }: { children: React.ReactNode }) {
+  return (
+    <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
+      <ReactLenis root>
+        {children}
+      </ReactLenis>
+    </NextThemesProvider>
+  );
+}
